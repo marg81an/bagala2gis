@@ -1,0 +1,13 @@
+{
+  "name": "bagala",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bagala — QR-отзывы для заведений (RU/KZ)",
+  "scripts": {
+    "dev": "node dev-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

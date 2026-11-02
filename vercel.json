@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/r/:slug", "destination": "/api/rate?slug=:slug" },
+    { "source": "/d/:token", "destination": "/api/dashboard?token=:token" },
+    { "source": "/admin", "destination": "/api/admin" },
+    { "source": "/admin/print/:slug", "destination": "/api/print?slug=:slug" }
+  ]
+}
