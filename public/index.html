@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bagala — отзывы гостей через QR</title>
+<meta name="description" content="Bagala: гости оценивают заведение по QR-коду, жалобы сразу приходят владельцу в Telegram, довольные гости оставляют отзывы в 2ГИС.">
+<style>
+:root{--p:#4f46e5;--p2:#4338ca;--text:#111827;--muted:#6b7280;--bg:#f5f6fb;--star:#f59e0b}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.5}
+.wrap{max-width:960px;margin:0 auto;padding:24px 20px 60px}
+.brand{font-weight:800;color:var(--p2);font-size:20px}
+.hero{padding:56px 0 36px}
+h1{font-size:clamp(30px,5vw,48px);line-height:1.1;margin:0 0 14px;letter-spacing:-.5px}
+.lead{font-size:19px;color:#374151;max-width:640px;margin:0 0 8px}
+.kk{color:var(--muted);font-size:16px;max-width:640px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:28px}
+.card{background:#fff;border-radius:18px;padding:22px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 8px 24px rgba(17,24,39,.06)}
+.card b{display:block;font-size:17px;margin-bottom:6px}
+.card p{margin:0;color:var(--muted)}
+.n{color:var(--star);font-weight:800;font-size:22px}
+.cta{display:inline-block;margin-top:22px;background:var(--p);color:#fff;text-decoration:none;font-weight:700;padding:14px 22px;border-radius:12px}
+footer{margin-top:48px;color:#9ca3af;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">Bagala</div>
+  <div class="hero">
+    <h1>Узнавайте о проблемах раньше, чем о них напишут в 2ГИС</h1>
+    <p class="lead">Гость сканирует QR-код на столе и ставит оценку за 10 секунд. Жалобы сразу приходят вам в Telegram, а довольных гостей мы приглашаем оставить отзыв в 2ГИС.</p>
+    <p class="kk">Мәселелер туралы 2ГИС-те жазылмай тұрып біліңіз. Қонақ QR-кодты сканерлеп, 10 секундта баға қояды.</p>
+    <a class="cta" href="https://t.me/" id="contact">Подключить заведение</a>
+  </div>
+  <div class="grid">
+    <div class="card"><span class="n">1</span><b>QR на каждом столе</b><p>Красивая табличка на русском и казахском. Отдельный QR для каждого сотрудника.</p></div>
+    <div class="card"><span class="n">2</span><b>Жалобы в Telegram</b><p>Плохая оценка с комментарием и контактом гостя приходит вам за секунду.</p></div>
+    <div class="card"><span class="n">3</span><b>Больше отзывов в 2ГИС</b><p>Довольным гостям предлагаем поделиться впечатлением публично.</p></div>
+    <div class="card"><span class="n">4</span><b>Кабинет со статистикой</b><p>Средняя оценка, жалобы, рейтинг сотрудников за 7, 30 и 90 дней.</p></div>
+  </div>
+  <footer>© Bagala</footer>
+</div>
+</body>
+</html>
